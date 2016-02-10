@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# Directory Service Command Line: find the maximum user id number.
+# Directory Service Command Line (DCSL): query the maximum user id number.
 #
 # Syntax:
 #

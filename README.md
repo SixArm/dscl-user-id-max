@@ -1,4 +1,4 @@
-# Directory Service Command Line: find the maximum user id number.
+# Directory Service Command Line (DSCL): query the maximum user id number
 
 Syntax:
 
