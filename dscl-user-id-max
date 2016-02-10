@@ -21,4 +21,5 @@
 #   * Contact: Joel Parker Henderson (joel@joelparkerhenderson.com)
 ##
 set -euf
-dscl . -list /Users UniqueID | awk '{ if (max=="" || $2>max){ max=$2 }} END {print max}'
+dscl . -list /Users UniqueID |
+awk '{ if (max=="" || $2>max){ max=$2 }} END {print max}'
