@@ -22,4 +22,4 @@
 ##
 set -euf
 dscl . -list /Users UniqueID |
-awk '{ if (max=="" || $2>max){ max=$2 }} END {print max}'
+awk '{if (max=="" || $2>max){ max=$2 }} END {print max}'
